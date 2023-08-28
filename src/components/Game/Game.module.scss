@@ -1,0 +1,29 @@
+.container {
+  @apply flex flex-col h-[98vh];
+  outline: red dashed 1px;
+}
+
+.form {
+  @apply flex flex-col h-full;
+}
+
+.content {
+  @apply flex h-[90vh] bg-black text-white text-lg;
+  /* @apply flex flex-col w-full h-full max-h-[85%] overflow-y-scroll overflow-x-hidden bg-[#d6d8dc]; */
+}
+
+.textContainer {
+  @apply overflow-y-auto max-h-max w-full flex flex-col-reverse;
+}
+
+.inputContainer {
+  @apply flex justify-center h-[10vh];
+}
+
+.textItems {
+  @apply flex flex-col items-start;
+}
+
+.textItem {
+  @apply p-[5px];
+}
